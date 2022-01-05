@@ -92,7 +92,8 @@ strong { font-weight: var(--fw-bold) }
 
 h1,
 h2,
-h3 {
+h3
+h4 {
     line-height: 1;
     margin: 0;
 }
@@ -213,10 +214,6 @@ header {
 }
 
 
-
-
-
-
 .hamburger {
     display: block;
     position: relative;
@@ -292,6 +289,11 @@ header {
 
 
 /*  My services section  */
+ul {
+  list-style-type: none;
+  text-align: center;
+  justify-content: center;
+}
 
 .my-services {
     background-color: var(--clr-dark);
@@ -337,6 +339,11 @@ header {
     .service + .service {
         margin-left: 2em;
     }
+    ul {
+  list-style-type: none;
+  text-align: center;
+  justify-content: center;
+}
 }
 
 
@@ -379,6 +386,11 @@ header {
         position: relative;
         z-index: 2;
     }
+    ul {
+  list-style-type: none;
+  text-align: center;
+  justify-content: center;
+}
 }
 
 /* My Work */
@@ -392,6 +404,7 @@ header {
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    image-orientation: cover;
 }
 
 .portfolio__item {
